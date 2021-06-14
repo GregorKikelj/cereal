@@ -110,10 +110,10 @@ struct CarEvent @0x9b1657f34caf3ad3 {
     wideRoadCameraError @102;
     localizerMalfunction @103;
 
-    pqTimebombWarn @104;
-    pqTimebombBypassing @105;
-    pqTimebombBypassed @106;
-    pqTimebombTERMINAL @107;
+    pqTimebombWarn @105;
+    pqTimebombBypassing @106;
+    pqTimebombBypassed @107;
+    pqTimebombTERMINAL @108;
 
     radarCanErrorDEPRECATED @15;
     radarCommIssueDEPRECATED @67;
