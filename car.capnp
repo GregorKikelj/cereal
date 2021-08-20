@@ -110,10 +110,10 @@ struct CarEvent @0x9b1657f34caf3ad3 {
     localizerMalfunction @103;
     highCpuUsage @105;
 
-    pqTimebombWarn @105;
-    pqTimebombBypassing @106;
-    pqTimebombBypassed @107;
-    pqTimebombTERMINAL @108;
+    pqTimebombWarn @106;
+    pqTimebombBypassing @107;
+    pqTimebombBypassed @108;
+    pqTimebombTERMINAL @109;
 
     driverMonitorLowAccDEPRECATED @68;
     radarCanErrorDEPRECATED @15;
@@ -174,7 +174,7 @@ struct CarState {
   stockFcw @31 :Bool;
   espDisabled @32 :Bool;
 
-  stopSteering @37 :Bool;
+  stopSteering @38 :Bool;
 
   # cruise state
   cruiseState @10 :CruiseState;
@@ -449,6 +449,8 @@ struct CarParams {
     kiBP @2 :List(Float32);
     kiV @3 :List(Float32);
     kf @4 :Float32;
+    kdBP @5 :List(Float32);
+    kdV @6 :List(Float32);
   }
 
   struct LongitudinalPIDTuning {

@@ -616,6 +616,7 @@ struct ControlsState @0x97ff69c53601abf1 {
     f @6 :Float32;
     output @7 :Float32;
     saturated @8 :Bool;
+    d @9 :Float32;
    }
 
   struct LateralLQRState {
