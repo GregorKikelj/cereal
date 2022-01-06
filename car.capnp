@@ -109,6 +109,11 @@ struct CarEvent @0x9b1657f34caf3ad3 {
     wideRoadCameraError @102;
     localizerMalfunction @103;
 
+    pqTimebombWarn @105;
+    pqTimebombBypassing @106;
+    pqTimebombBypassed @107;
+    pqTimebombTERMINAL @108;
+
     driverMonitorLowAccDEPRECATED @68;
     radarCanErrorDEPRECATED @15;
     radarCommIssueDEPRECATED @67;
@@ -167,6 +172,8 @@ struct CarState {
   stockFcw @31 :Bool;
   espDisabled @32 :Bool;
 
+  stopSteering @37 :Bool;
+  
   # cruise state
   cruiseState @10 :CruiseState;
 
